@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+header {
+    background-color:rgb(18, 29, 194);
+    position: fixed;
+    width: 100%;
+    /* margin:auto; */
+}
+h1 {
+    position:absolute;
+    margin-top: 7%;
+    text-shadow: 5px 10px 10px rgba(151, 97, 97, 0.795);
+    font-family: 'Aclonica', sans-serif;
+}
+.jumbotron {
+    background-image: url('../images/the_walking_dead_wallpaper_amc_018.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 100%;
+}
+/* .d-block {
+    width: 50%;
+    height: 50%;
+} */
+
+.fa {
+    font-size: 50px;
+    
+}
+.footerTag{
+    text-align: center;
+    color:white;
+}
+.blog-footer {
+    background-color: black;
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:0%;
+    position:relative;
+    height:0;
+}
+.map-container iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:50%;
+    position:center;
+    margin-left: 35%;
+}
